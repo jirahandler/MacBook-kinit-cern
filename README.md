@@ -23,7 +23,7 @@ If such a file doesn't exist, create one using `sudo`
 # to use, simply do
 #
 #  (for bash and zsh, place it in .bashrc and .zshrc respectively)
-#   export KRB5_CONFIG=$ATLAS_LOCAL_ROOT_BASE/user/krb5-MacOS.conf
+#   export KRB5_CONFIG=/etc/krb5.conf
 #
 
 [libdefaults]
@@ -48,9 +48,9 @@ If such a file doesn't exist, create one using `sudo`
 ```
 
 >[!NOTE]
-> for bash and zsh, place it in .bashrc and .zshrc respectively
+> for `bash` and `zsh`, place it in `~/.bashrc` and `~/.zshrc` respectively
 > ```bash
-> export KRB5_CONFIG=$ATLAS_LOCAL_ROOT_BASE/user/krb5-MacOS.conf
+> export KRB5_CONFIG=/etc/krb5.conf
 > ```
 
 ## User `ssh` config
