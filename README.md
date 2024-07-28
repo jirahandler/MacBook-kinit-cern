@@ -100,7 +100,7 @@ Host *
 
 ## Once `ssh` config is created
 
-Execute the following as regular user, assuming you have ssh-keys from `$USER@lxplus.cern.ch:~/.ssh/*`
+Execute the following as a regular user, assuming you have ssh-keys from `$USER@lxplus.cern.ch:~/.ssh/*`
 
 ```bash
 chmod 700 ~/.ssh
@@ -135,7 +135,7 @@ The result should be as follows:
 
 ```bash
 Credentials cache: API:<Token HEX above>
-        Principal: sgoswami@CERN.CH
+        Principal: <your_CERN_username>@CERN.CH
     Cache version: 0
 
 Server: krbtgt/CERN.CH@CERN.CH
