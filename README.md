@@ -95,8 +95,8 @@ host lxtunnel lxtunnel.cern.ch
 Host *
   UseKeychain yes
   AddKeysToAgent yes
-  # uncomment the line after you create your public key, instructions:
-  #   https://twiki.atlas-canada.ca/bin/view/AtlasCanada/Password-lessSsh
+  # uncomment the  IdentityFile line after you create your public key
+  # instrcutions here: https://twiki.atlas-canada.ca/bin/view/AtlasCanada/Password-lessSsh
   #IdentityFile ~/.ssh/id_rsa
 ```
 
