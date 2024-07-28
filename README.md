@@ -155,7 +155,7 @@ Addresses: addressless
 
 ## What to do if all of the above fails?
 
-STEP 1: Bug your office mate, mate!
-STEP 2: Open a CERN SNOW ticket
-STEP 3: The first rule of `kinit` is you don't talk about STEP 3
-STEP 4: goto (deprecated) STEP 3; inf loop
+- STEP 1: Bug your office mate, mate!
+- STEP 2: Open a CERN SNOW ticket
+- STEP 3: The first rule of `kinit` is you don't talk about STEP 3
+- STEP 4: goto (deprecated) STEP 3; inf loop
