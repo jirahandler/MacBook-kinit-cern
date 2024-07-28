@@ -4,7 +4,9 @@ This repo contains configs and instructions for using kerberos authentication on
 
 ## But First
 
-Please don't use `krb5` packages from `homebrew` or `cask` or even `anaconda`
+Please don't use `krb5` packages from `homebrew`, `cask`, or even `anaconda`. 
+
+Use the one and only `/usr/bin/kinit`
 
 ## System `krb5` config
 
@@ -72,7 +74,7 @@ Host lxplus*
   GSSAPIAuthentication yes 
   GSSAPIDelegateCredentials yes 
   PubkeyAuthentication no 
-  ForwardX11 yes
+  ForwardX11 no
   # User <your lxplus username if different>
 
 # important: create ~/.ssh/controlmasters first so that it exists
