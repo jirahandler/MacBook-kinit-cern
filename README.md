@@ -136,7 +136,7 @@ ssh lxplus.cern.ch
 The result should be as follows:
 
 ```bash
-Credentials cache: API:<Token HEX above>
+Credentials cache: API:<Token HEX>
         Principal: <your_CERN_username>@CERN.CH
     Cache version: 0
 
@@ -144,10 +144,10 @@ Server: krbtgt/CERN.CH@CERN.CH
 Client: <your_CERN_username>@CERN.CH
 Ticket etype: aes256-cts-hmac-sha1-96, kvno 5
 Ticket length: 2748
-Auth time:  Jul 28 14:48:15 2024
-Start time: Jul 28 16:48:24 2024
-End time:   Jul 29 16:48:17 2024
-Renew till: Aug  4 14:48:08 2024
+Auth time:  MON DD HH:MM:SS YYYY
+Start time: MON DD HH:MM:SS YYYY
+End time:   MON DD HH:MM:SS YYYY
+Renew till: MON DD HH:MM:SS YYYY
 Ticket flags: enc-pa-rep, pre-authent, initial, renewable, proxiable, forwardable
 Addresses: addressless
 ```
