@@ -1,4 +1,4 @@
-# MacBook CERN Lxplus Kerberos Settings
+# CERN Lxplus Kerberos Settings for MacBooks
 
 This repo contains configs and instructions for using kerberos authentication on MacOS Sonoma
 
